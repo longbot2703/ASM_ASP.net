@@ -1,0 +1,31 @@
+﻿@page
+@using WebFilm.Components
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the best WebFilm</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@(await Html.RenderComponentAsync<FilmList>(RenderMode.ServerPrerendered))
+<script src="_framework/blazor.server.js"></script>
+
+@*<div class="container-fluid">
+        <div class="row d-inline-flex">
+            @foreach (var film in Model.Film)
+            {
+                <div class="col-6 col-sm-4 col-md-4 p-2">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="@film.Image" />
+                        <h4 class="card-title text-center">@film.Title</h4>
+                        <p class="card-text text-center">@film.Description</p>
+                        <a href="@film.Url" class="btn btn-primary">More Infomation</a>
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>*@

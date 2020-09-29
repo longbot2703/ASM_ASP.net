@@ -1,0 +1,81 @@
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.AssemblyInfoInputs.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.AssemblyInfo.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorAssemblyInfo.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorAssemblyInfo.cs
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.exe
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.deps.json
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.runtimeconfig.json
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.runtimeconfig.dev.json
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.dll
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.pdb
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.Views.dll
+C:\Users\ADMIN\source\repos\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.Views.pdb
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.TagHelpers.input.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.TagHelpers.output.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorCoreGenerate.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorTargetAssemblyInfo.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorTargetAssemblyInfo.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.Views.pdb
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\staticwebassets\WebFilm.StaticWebAssets.Manifest.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\staticwebassets\WebFilm.StaticWebAssets.xml
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.dll
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.pdb
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.genruntimeconfig.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.csproj.CopyComplete
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorComponent.input.cache
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\FilmList.razor.g.cs
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\RazorDeclaration\WebFilm.dll
+C:\Users\ADMIN\source\repos\WebFilm\obj\Debug\netcoreapp3.1\Razor\Components\FilmList.razor.g.cs
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\appsettings.json
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.exe
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.deps.json
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.runtimeconfig.json
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.runtimeconfig.dev.json
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.dll
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.pdb
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.Views.dll
+D:\ASP.Net Core\WebFilm\bin\Debug\netcoreapp3.1\WebFilm.Views.pdb
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.csprojAssemblyReference.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.AssemblyInfoInputs.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.AssemblyInfo.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.csproj.CoreCompileInputs.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.MvcApplicationPartsAssemblyInfo.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorComponent.input.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\RazorDeclaration\Components\FilmList.razor.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\RazorDeclaration\WebFilm.dll
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.TagHelpers.input.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.TagHelpers.output.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorCoreGenerate.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\Razor\Components\FilmList.razor.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorAssemblyInfo.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorAssemblyInfo.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorTargetAssemblyInfo.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.RazorTargetAssemblyInfo.cs
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.Views.pdb
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\staticwebassets\WebFilm.StaticWebAssets.Manifest.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\staticwebassets\WebFilm.StaticWebAssets.xml
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.dll
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.pdb
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.genruntimeconfig.cache
+D:\ASP.Net Core\WebFilm\obj\Debug\netcoreapp3.1\WebFilm.csproj.CopyComplete

@@ -1,0 +1,136 @@
+﻿@using WebFilm.Models
+@using WebFilm.Services
+@using Microsoft.AspNetCore.Components.Web
+@inject JsonFileFilmService FilmService
+
+
+<div class="container-fluid">
+    <div class="row d-inline-flex">
+        @foreach (var film in FilmService.GetFilm())
+        {
+            <div class="col-6 col-sm-4 col-md-4 p-2">
+                <div class="card h-100">
+                    <img class="card-img-top" src="@film.Image" />
+                    <h4 class="card-title text-center">@film.Title</h4>
+                    
+                    <p class="card-text text-center">@film.Description</p>
+                    
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <button @onclick="(e => SelectFilm(film.Id))"
+                                    data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                                Details
+                            </button>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+
+            @*<div class="card">
+                    <div class="card-img" style="background-img: url('@product.Image');">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Title</h5>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <button @onclick="(e => SelectProduct(product.Id))"
+                                    data-toggle="modal" data-target="#productModal" class="btn btn-primary">
+                                More Info
+                            </button>
+                        </small>
+                    </div>
+                </div>*@
+        }
+    </div>
+</div>
+
+@if (selectedFilm != null)
+{
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedFilm.Title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="card">
+                        <img class="card-img-top" src="@selectedFilm.Image" />
+
+                        <div class="card-body">
+                            <p class="card-text">@selectedFilm.Description</p>
+                        </div>
+                        <a href="@selectedFilm.Url" class="btn btn-primary">More Infomation</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    @if (voteCount == 0)
+                    {
+                        <span>Be the first to vote!</span> }
+                    else
+                    {
+                        <span>@voteCount @voteLabel</span>}
+                    @for (int i = 1; i < 6; i++)
+                    {
+                        var currentStar = i;
+                        if (i <= currentRating)
+                        {
+                            <span class="fa fa-star checked" @onclick="(e => SubmitRating(currentStar))"></span> }
+                        else
+                        {
+                            <span class="fa fa-star" @onclick="(e => SubmitRating(currentStar))"></span>}
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+@code {
+    Film selectedFilm;
+    string selectedFilmId;
+
+    void SelectFilm(string filmId)
+    {
+        selectedFilmId = filmId;
+        selectedFilm = FilmService.GetFilm().First(x => x.Id == filmId);
+        GetCurrentRating();
+    }
+
+    int currentRating = 0;
+    int voteCount = 0;
+    string voteLabel;
+
+    void GetCurrentRating()
+    {
+        if (selectedFilm.Ratings == null)
+        {
+            currentRating = 0;
+            voteCount = 0;
+        }
+        else
+        {
+            voteCount = selectedFilm.Ratings.Count();
+            voteLabel = voteCount > 1 ? "Votes" : "Vote";
+            currentRating = selectedFilm.Ratings.Sum() / voteCount;
+        }
+
+        System.Console.WriteLine($"Current rating for {selectedFilm.Id}: {currentRating}");
+    }
+    void SubmitRating(int rating)
+    {
+        System.Console.WriteLine($"Rating received for {selectedFilm.Id}: {rating}");
+        FilmService.AddRating(selectedFilmId, rating);
+        SelectFilm(selectedFilmId);
+    }
+}
